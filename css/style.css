@@ -72,6 +72,76 @@ body {
     background-color: rgb(49, 49, 247);
 }
 
+.link-1 {
+    margin: 20px 0;
+}
+
+.heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0;
+}
+
+.heading h1 {
+    font-size: 56px;
+    color: rgb(100, 100, 250);
+    margin-bottom: 10px;
+}
+
+.quote-container {
+    height: 15vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Kanit", Verdana, Arial, sans-serif;
+
+}
+
+#text {
+   border: none;
+   outline: none;
+   width: 50%;
+   height: 15vh;
+   border-radius: 6px;
+   font-size: 30px;
+   padding: 10px;   
+   resize: none;
+}
+
+.generate-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.generate-btn button {
+    border: none;
+    outline: none;
+    margin: 40px 0;
+    padding: 16px 24px;
+    font-size: 18px;
+    border-radius: 6px;
+    background-color: rgb(100, 100, 250);
+    color: white; 
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.generate-btn button:hover {
+    background-color: rgb(49, 49, 247);
+}
+
+a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
 @media screen and (max-width: 768px) {
     .container {
         padding: 10px;
